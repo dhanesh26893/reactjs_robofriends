@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <h1>Hello World!!! */}
     <App />
+    {/* <Hello greeting={'Hello '+'React Ninja'} /> */}
+    {/* </h1> */}
+
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
